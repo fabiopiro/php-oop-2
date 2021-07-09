@@ -14,6 +14,6 @@ class CreditCard {
     // metodi
 }
 
-$c1 = new CreditCard("1111 0000 1111 0000");
+$c99 = new CreditCard("1111 0000 1111 0000");
 
-var_dump($c1);
+var_dump($c99);

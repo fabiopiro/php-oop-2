@@ -1,5 +1,6 @@
 <?php 
     require_once __DIR__ . "/classes/PremiumUser.php";
+    require_once __DIR__ . "/classes/Item.php";
     require_once __DIR__ . "/classes/CreditCard.php";
 ?>
 <!DOCTYPE html>

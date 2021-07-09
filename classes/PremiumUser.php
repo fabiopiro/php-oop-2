@@ -18,6 +18,10 @@ class PremiumUser extends User {
 
 $p1 = new PremiumUser("Fabio", "Piroddi", "Cinisello");
 
+$c2 = new CreditCard("3333");
+
+$p1->insertCredit($c2);
+
 var_dump($p1);
 
 echo $p1 -> getFullName();

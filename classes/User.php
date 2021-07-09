@@ -1,6 +1,8 @@
 <?php
 
 require_once __DIR__ . "/CreditCard.php";
+require_once __DIR__ . "/Item.php";
+
 
 // classe User
 class User {
@@ -35,6 +37,7 @@ class User {
     public function insertCredit($credit) {
         $this->credit = $credit;
     }
+
 }
 
 $u1 = new User("Ginevra", "Visocchi", "Bresso");
@@ -46,3 +49,7 @@ $u1->insertCredit($c1);
 var_dump($u1);
 
 echo $u1 -> getFullName();
+
+
+
+

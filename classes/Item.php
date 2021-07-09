@@ -4,8 +4,8 @@
 class Item {
 
     // attributi/proprietà
-    public $name;
-    public $price; 
+    private $name;
+    private $price = 0; 
 
     // costruttori
     function __construct($name, $price) {
@@ -14,5 +14,17 @@ class Item {
     }
 
     // metodi
+    /*
+    public function addCart($item) {
+    $this->cart = array_push($cart, $item);
+    }
+    */
 
 }
+
+
+$i1 = new Item("palla", 3);
+var_dump($i1);
+
+$i2 = new Item("mazza", 10);
+var_dump($i2);

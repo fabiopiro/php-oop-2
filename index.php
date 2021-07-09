@@ -1,3 +1,7 @@
+<?php 
+    require_once __DIR__ . "/classes/PremiumUser.php";
+    require_once __DIR__ . "/classes/CreditCard.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,9 +11,6 @@
         <title>Shop Online</title>
     </head>
     <body>
-        <?php 
-            include __DIR__ . "/classes/User.php";
-        ?>
 
     </body>
 </html>

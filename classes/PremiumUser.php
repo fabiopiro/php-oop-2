@@ -16,5 +16,8 @@ class PremiumUser extends User {
     }
 }
 
-$p1 = new PremiumUser("Fabio", "Piroddi", "Via mariani");
-var_dump($sp1);
+$p1 = new PremiumUser("Fabio", "Piroddi", "Cinisello");
+
+var_dump($p1);
+
+echo $p1 -> getFullName();

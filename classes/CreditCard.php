@@ -4,7 +4,7 @@
 class CreditCard {
 
     // attributi/proprietà
-    public $number;
+    private $number;
 
     // costruttori
     function __construct($number) {
@@ -12,5 +12,8 @@ class CreditCard {
     }
 
     // metodi
-
 }
+
+$c1 = new CreditCard("1111 0000 1111 0000");
+
+var_dump($c1);
